@@ -24,6 +24,7 @@ while(m[j]!=m[b])
     printf("%d * ",m[j]);
     j++;
 }
+printf("1");
 printf("=");
 printf(" %d",multi);
 
