@@ -28,19 +28,20 @@ int main()
         }
         scanf("%d",&m[i]);
     }
+    printf("%d\n",m[0]);
     for(int i=0;i<a;i++)
     {
         multi=multi*m[i];
     }
-int b=a;
+int b=a-1;
 int j=0;
-while(m[j]!=m[b])
+while(j!=b)
 {
-
-    printf("%d * ",m[j]);
+   
+       printf("%d * ",m[j]);
     j++;
 }
-printf("1");
+printf("%d",m[b]);
 printf("=");
 printf(" %d",multi);
 
