@@ -28,7 +28,6 @@ int main()
         }
         scanf("%d",&m[i]);
     }
-    printf("%d\n",m[0]);
     for(int i=0;i<a;i++)
     {
         multi=multi*m[i];
